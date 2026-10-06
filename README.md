@@ -47,7 +47,7 @@ Para visualizar el prototipo Front-End de manera local:
    +--------> [Catálogo de Adopción] ---> [Detalle de Mascota]
 
 
-<h2 id="matriz">🔗 Matriz de Trazabilidad</h2>
+## <h2 id="matriz">🔗 Matriz de Trazabilidad</h2>
 
 <p>Relación directa entre los requerimientos funcionales documentados y su implementación en el prototipo:</p>
 
