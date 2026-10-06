@@ -45,3 +45,33 @@ Para visualizar el prototipo Front-End de manera local:
    |            +--------> [Registro]
    |
    +--------> [Catálogo de Adopción] ---> [Detalle de Mascota]
+
+
+## 🔗 Matriz de Trazabilidad
+
+A continuación se muestra la relación directa entre los requerimientos funcionales documentados y su implementación en las vistas del prototipo.
+
+| Requerimiento | Vista (Archivo HTML) | Componentes / Lógica |
+| :--- | :--- | :--- |
+| **RF-01** Registro de usuarios (Adoptante/Refugio) |  `registro.html` | Formulario estructurado, validaciones en `js/validaciones.js`. |
+| **RF-02** Inicio de sesión |  `login.html` | Formulario de autenticación con redirección a `dashboard.html`. |
+| **RF-05** Visualización del catálogo de mascotas |  `inicio.html` | Componente de tarjetas (Cards) iteradas para la galería. |
+| **RF-06** Filtrado de mascotas |  `inicio.html` | Barra lateral con opciones de filtrado. |
+| **RF-03 / RF-04** Gestión de mascotas por el refugio |  `dashboard.html` | Panel de control (Dashboard) con tabla de registros y modales de edición. |
+
+<br>
+
+##  Evidencias de Diseño Responsivo
+
+El diseño del prototipo fue desarrollado bajo el enfoque *Mobile First*. 
+
+> **Nota:** Reemplazar las siguientes líneas con las imágenes correspondientes de la carpeta `docs/`.
+
+*   `![Vista Móvil - Inicio](docs/mobile-inicio.png)`
+*   `![Vista Móvil - Catálogo](docs/mobile-catalogo.png)`
+
+<br>
+
+## Declaración de Uso de IA
+
+Se utilizaron herramientas de inteligencia artificial exclusivamente como apoyo para la estructuración de la documentación y consulta de sintaxis, cumpliendo con la capacidad técnica del equipo para explicar y defender el código desarrollado.
