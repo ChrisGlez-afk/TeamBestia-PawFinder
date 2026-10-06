@@ -39,55 +39,61 @@ Para visualizar el prototipo Front-End de manera local:
 
 ## Mapa de Navegación
 
-```text
+<pre>
 [Inicio] ---> [Login] ---> [Dashboard Refugio]
    |            |
    |            +--------> [Registro]
    |
    +--------> [Catálogo de Adopción] ---> [Detalle de Mascota]
-
-
+</pre>
 
 <h2 id="matriz">🔗 Matriz de Trazabilidad</h2>
+
 <p>Relación directa entre los requerimientos funcionales documentados y su implementación en el prototipo:</p>
-<ul>
-<li>
-<strong>🔑 RF-01 / RF-02: Gestión de Acceso</strong>
-<ul>
-<li><code>registro.html</code> | Formulario para Adoptantes/Refugios con validaciones en <em>js/validaciones.js</em>.</li>
-<li><code>login.html</code> | Autenticación de usuarios con redirección condicional al área privada.</li>
-</ul>
-</li>
 
-
-<li>
-<strong>🐾 RF-05 / RF-06: Exploración y Catálogo</strong>
 <ul>
-<li><code>inicio.html</code> | Vista principal usando <em>CSS Grid</em> para renderizar las tarjetas (Cards) de las mascotas.</li>
-<li><code>inicio.html</code> | Implementación de barra lateral estática para el filtrado visual.</li>
+  <li>
+    <strong>🔑 RF-01 / RF-02: Gestión de Acceso</strong>
+    <ul>
+      <li><code>registro.html</code> | Formulario para Adoptantes/Refugios con validaciones en <em>js/validaciones.js</em>.</li>
+      <li><code>login.html</code> | Autenticación de usuarios con redirección condicional al área privada.</li>
+    </ul>
+  </li>
+  <br>
+  <li>
+    <strong>🐾 RF-05 / RF-06: Exploración y Catálogo</strong>
+    <ul>
+      <li><code>inicio.html</code> | Vista principal usando <em>CSS Grid</em> para renderizar las tarjetas (Cards) de las mascotas.</li>
+      <li><code>inicio.html</code> | Implementación de barra lateral estática para el filtrado visual.</li>
+    </ul>
+  </li>
+  <br>
+  <li>
+    <strong>⚙️ RF-03 / RF-04: Administración (Refugios)</strong>
+    <ul>
+      <li><code>dashboard.html</code> | Panel de control protegido. Incluye tabla responsiva y modales integrados para la edición y alta de nuevas mascotas.</li>
+    </ul>
+  </li>
 </ul>
-</li>
 
-
-<li>
-<strong>⚙️ RF-03 / RF-04: Administración (Refugios)</strong>
-<ul>
-<li><code>dashboard.html</code> | Panel de control protegido. Incluye tabla responsiva y modales integrados para la edición y alta de nuevas mascotas.</li>
-</ul>
-</li>
-</ul>
 <hr>
+
 <h2 id="evidencias">📱 Evidencias de Diseño Responsivo</h2>
+
 <p>El diseño del prototipo fue estructurado bajo el principio <em>Mobile First</em>, garantizando la accesibilidad en cualquier dispositivo.</p>
+
 <p><em>(Reemplaza con tus imágenes de Figma / Pruebas reales)</em></p>
-<!-- Usa este bloque div para alinear tus imágenes lado a lado -->
+
 <div align="center">
-<img src="docs/mobile-inicio.png" alt="Vista Móvil - Inicio" width="250"/>
-    
-<img src="docs/mobile-catalogo.png" alt="Vista Móvil - Catálogo" width="250"/>
+  <img src="docs/mobile-inicio.png" alt="Vista Móvil - Inicio" width="250"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="docs/mobile-catalogo.png" alt="Vista Móvil - Catálogo" width="250"/>
 </div>
+
 <hr>
+
 <h2 id="ia">🤖 Declaración de Uso de IA</h2>
+
 <p>
-Se emplearon modelos de lenguaje grandes (LLMs) estrictamente como herramientas de apoyo para iterar la estructura de la documentación, afinar la justificación del problema y resolver dudas puntuales de sintaxis en CSS/JS. Todo el código final fue revisado, adaptado y es completamente comprendido por los desarrolladores responsables.
+  Se emplearon modelos de lenguaje grandes (LLMs) estrictamente como herramientas de apoyo para iterar la estructura de la documentación, afinar la justificación del problema y resolver dudas puntuales de sintaxis en CSS/JS. Todo el código final fue revisado, adaptado y es completamente comprendido por los desarrolladores responsables.
 </p>
