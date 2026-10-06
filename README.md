@@ -37,9 +37,7 @@ Para visualizar el prototipo Front-End de manera local:
 *   Usuario: demo@pawfinder.com
 *   Contraseña: password123
 
-## Mapa de Navegación
-
-*(Insertar imagen del mapa de navegación aquí, ej: `![Mapa de Navegación](docs/mapa.png)`)*
+## Mapa de Naveg
 
 ```text
 [Inicio] ---> [Login] ---> [Dashboard Refugio]
