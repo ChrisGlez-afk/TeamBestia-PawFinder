@@ -44,7 +44,7 @@ Para visualizar el prototipo Front-End de manera local:
    |            |
    |            +--------> [Registro]
    |
-   +--------> [Catálogo de Adopción] ---> [Detalle de Mascota]
+   +--------> [Catálogo de Adopción] ---> [Detalle de Mascota] ```
 
 
 ## <h2 id="matriz">🔗 Matriz de Trazabilidad</h2>
