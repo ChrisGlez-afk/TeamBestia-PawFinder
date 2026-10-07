@@ -39,27 +39,7 @@ Para visualizar el prototipo Front-End de manera local:
 
 ## Mapa de Navegación
 
-graph TD
-    Root[Carpeta Raíz] --> Index[index.html <br> Portada Principal]
-    
-    Index --> ComoFunciona[Sección: ¿Cómo funciona?]
-    Index --> VistaLogin[HTML/login.html]
-    Index --> VistaVet[HTML/registroRefugioYVeterinaria.html]
-    Index --> VistaAdoptar[HTML/adoptar.html]
 
-    Sub[Carpeta /HTML/] --> Login[login.html]
-    Sub --> Registro[registro.html]
-    Sub --> Adoptar[adoptar.html]
-    Sub --> Vet[registroRefugioYVeterinaria.html]
-
-    Login -->|Ruta: ../index.html| Index
-    Registro -->|Ruta: ../index.html| Index
-    Adoptar -->|Ruta: ../index.html| Index
-    Vet -->|Ruta: ../index.html| Index
-
-    style Root fill:#f9f,stroke:#333,stroke-width:2px
-    style Index fill:#bbf,stroke:#333,stroke-width:2px
-    style Sub fill:#ff9,stroke:#333,stroke-width:2px
 
 
 
