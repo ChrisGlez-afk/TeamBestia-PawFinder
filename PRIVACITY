@@ -1,1 +1,48 @@
 Aquí se generará todos los acuerdos de privacidad con el usuario final y con las entidades asociadas.
+MODIFICADO POR CHRISTOPHER A FECHA DE 06/10/2026:
+Política de Privacidad y Descargo de Responsabilidad
+Última actualización: Octubre 2026
+Proyecto: PawFinder
+Equipo: TeamBestia
+
+1. Naturaleza del Proyecto y Descargo de Responsabilidad Legal
+PawFinder es un prototipo de aplicación web desarrollado estrictamente con fines académicos y de evaluación para la materia de Desarrollo de Aplicaciones Web de la Universidad Tecnológica de León (UTL).
+
+AVISO LEGAL (DISCLAIMER):
+
+PawFinder no es una organización operativa, no es una agencia de adopción real, ni representa a ninguna entidad legalmente constituida o refugio de animales en funciones.
+
+Toda la información mostrada en el prototipo, incluyendo perfiles de mascotas, nombres de refugios, casos de adopción y ubicaciones, corresponde a datos ficticios (placeholders) utilizados exclusivamente para demostrar la viabilidad técnica y el diseño de la interfaz de usuario.
+
+Los desarrolladores del proyecto (TeamBestia) y la Universidad Tecnológica de León se deslindan expresamente de cualquier responsabilidad civil, legal o moral derivada de malentendidos, expectativas de adopción o el uso indebido de la información pública en este repositorio.
+
+2. Recopilación de Información
+Al interactuar con los formularios del sistema (registro, inicio de sesión y solicitudes de adopción), el prototipo está diseñado para procesar:
+
+Datos de adoptantes: Nombres de usuario, correos electrónicos y contraseñas.
+
+Datos de instituciones: Nombres de refugios o veterinarias, direcciones físicas, correos de contacto y números telefónicos.
+
+ADVERTENCIA DE SEGURIDAD: Dado que el proyecto es un entorno de pruebas escolar, se insta a todos los usuarios, profesores y evaluadores a no ingresar contraseñas de uso personal, datos financieros, ni información confidencial en ninguno de los campos de la plataforma.
+
+3. Uso de los Datos Ingresados
+Cualquier información capturada en los formularios tiene como único propósito:
+
+Validar la correcta navegación y restricción de accesos según los roles del sistema.
+
+Demostrar la capacidad del código para ejecutar validaciones y simular operaciones de base de datos.
+
+Representar visualmente el flujo de una solicitud de adopción.
+
+Ningún dato ingresado en este prototipo será almacenado con fines de lucro, distribuido a terceros, ni utilizado para campañas comerciales o de marketing.
+
+4. Almacenamiento Local y Tecnologías de Rastreo
+La plataforma requiere el uso de tecnologías de almacenamiento local del navegador (como localStorage o sessionStorage) con el fin técnico de mantener el estado de la sesión activa durante las pruebas de evaluación. El sistema no implementa cookies de rastreo publicitario ni herramientas de analítica de terceros que comprometan la privacidad del evaluador.
+
+5. Derechos de Autor y Material Gráfico
+Las fotografías de animales, logotipos y demás recursos visuales implementados en este prototipo provienen de bancos de imágenes de dominio público o se utilizan bajo el principio de uso justo (Fair Use) con fines estrictamente educativos y sin fines de lucro.
+
+Si usted es el titular de los derechos de autor de algún material gráfico aquí expuesto y solicita su retiro, le pedimos amablemente registrar la petición a través de un Issue en este repositorio para proceder con su eliminación inmediata.
+
+6. Contacto
+Para asuntos técnicos relacionados con el código fuente o la administración de este repositorio, el canal de comunicación oficial es la apertura de un Issue en GitHub, dirigido a los desarrolladores responsables del proyecto: Christian (Coordinador), Víctor (UX/UI), Christopher (Front-End 1) y Diego (Front-End 2).
