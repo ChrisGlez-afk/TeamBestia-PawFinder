@@ -85,10 +85,10 @@ Para visualizar el prototipo Front-End de manera local:
 
 
 <div align="center">
-  <img src="<img width="1900" height="875" alt="{41F4CDD7-3607-41E3-B8C6-EDE6E3E23344}" src="https://github.com/user-attachments/assets/8825fda6-e44c-453d-a496-87fc1681b589" />
+  <img width="1900" height="875" alt="{41F4CDD7-3607-41E3-B8C6-EDE6E3E23344}" src="https://github.com/user-attachments/assets/8825fda6-e44c-453d-a496-87fc1681b589" />
 " alt="Vista Móvil - Inicio" width="250"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="<img width="1896" height="886" alt="{854F4111-A90F-428D-9D1E-20E644E15B65}" src="https://github.com/user-attachments/assets/9e40989f-4d32-4268-9e2e-7a68bd150f5d" />
+  <img width="1896" height="886" alt="{854F4111-A90F-428D-9D1E-20E644E15B65}" src="https://github.com/user-attachments/assets/9e40989f-4d32-4268-9e2e-7a68bd150f5d" />
 " alt="Vista Móvil - Catálogo" width="250"/>
 </div>
 
