@@ -39,7 +39,7 @@ Para visualizar el prototipo Front-End de manera local:
 
 ## Mapa de Navegación
 
-<pre>
+
 graph TD
     %% Nivel Raíz
     Root[Carpeta Raíz] --> Index[index.html <br> Portada Principal]
@@ -67,7 +67,7 @@ graph TD
     style Index fill:#bbf,stroke:#333,stroke-width:2px
     style Sub fill:#ff9,stroke:#333,stroke-width:2px
 
-</pre>
+
 
 <h2 id="matriz"> Matriz de Trazabilidad</h2>
 
