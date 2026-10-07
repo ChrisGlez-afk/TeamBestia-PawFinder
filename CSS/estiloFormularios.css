@@ -1,0 +1,308 @@
+/* =========================================
+   Parte de formulario de Registro
+   ========================================= */
+  /* ==========================================
+   ESTILOS CORREGIDOS PARA FORMULARIOS
+   ========================================== */
+
+/* 1. Fijar la barra de navegación arriba */
+header.cabecera-fija,
+.cabecera-fija {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  z-index: 1000 !important;
+}
+
+/* 2. Alineación principal del body */
+html, body {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #fcfbf8 !important;
+}
+
+body {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  min-height: 100vh !important;
+}
+
+/* 3. Empujar el contenido hacia abajo para que la barra no lo tape */
+.contenedor-formulario-pagina,
+.contenedor-login-seccion {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 140px !important; /* Separación vertical respecto a la cabecera */
+  margin-bottom: 60px !important;
+  padding: 0 20px !important;
+  box-sizing: border-box !important;
+}
+
+/* 4. Tarjeta blanca con bordes redondeados y sombra */
+.tarjeta-formulario,
+.tarjeta-login {
+  background-color: #ffffff !important;
+  padding: 35px 30px !important;
+  border-radius: 24px !important;
+  box-shadow: 0 10px 25px rgba(9, 75, 57, 0.1) !important;
+  width: 100% !important;
+  max-width: 440px !important;
+  box-sizing: border-box !important;
+}
+
+/* 5. Título y etiquetas */
+#textoForm {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 2.1rem !important;
+  font-weight: 700 !important;
+  color: #094b39 !important;
+  text-align: center !important;
+  margin-top: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+.textoForm {
+  display: block !important;
+  font-weight: 600 !important;
+  color: #094b39 !important;
+  font-size: 0.95rem !important;
+  margin-top: 12px !important;
+  margin-bottom: 6px !important;
+}
+
+/* 6. Campos de texto */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100% !important;
+  padding: 12px 16px !important;
+  border: 2px solid #e2e8f0 !important;
+  border-radius: 14px !important;
+  font-size: 0.95rem !important;
+  background-color: #f8fafc !important;
+  box-sizing: border-box !important;
+  outline: none !important;
+  transition: all 0.25s ease !important;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+  border-color: #ebb020 !important;
+  background-color: #ffffff !important;
+  box-shadow: 0 0 0 3px rgba(235, 176, 32, 0.18) !important;
+}
+
+/* 7. Contenedor de botones */
+.grupo-botones {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  margin-top: 25px !important;
+}
+
+/* 8. Botón principal (Registrarse / Iniciar Sesión) */
+.btn-principal,
+.btn-login-submit {
+  width: 100% !important;
+  padding: 14px !important;
+  background-color: #ff6b6b !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 30px !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease, transform 0.1s ease !important;
+}
+
+.btn-principal:hover,
+.btn-login-submit:hover {
+  background-color: #e55a5a !important;
+  transform: translateY(-2px) !important;
+}
+
+/* 9. Botón secundario */
+.btn-secundario,
+.btn-login-registro {
+  width: 100% !important;
+  padding: 12px !important;
+  background-color: transparent !important;
+  color: #094b39 !important;
+  border: 2px solid #094b39 !important;
+  border-radius: 30px !important;
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn-secundario:hover,
+.btn-login-registro:hover {
+  background-color: #094b39 !important;
+  color: #ffffff !important;
+}
+
+/* =========================================
+   Parte de formulario de Inicio de Sesión
+   ========================================= */
+
+:root {
+  --color-fondo: #fcfbf8;
+  --color-verde-paw: #094b39;
+  --color-coral: #ff6b6b;
+  --color-coral-hover: #e55a5a;
+  --color-acento: #ebb020;
+  --color-borde: #e2e8f0;
+  --color-input-bg: #f8fafc;
+}
+
+/* 1. FIJAR LA NAVEGACIÓN ARRIBA Y OCUPAR EL 100% DEL ANCHO */
+header.cabecera-fija,
+.cabecera-fija {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  z-index: 9999 !important;
+}
+
+/* 2. REORDENAR EL BODY PARA QUE VAYA DE ARRIBA A ABAJO Y CENTRADO */
+html, body {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: var(--color-fondo) !important;
+}
+
+body {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-height: 100vh !important;
+}
+
+/* 3. CONTENEDOR PRINCIPAL DEL FORMULARIO */
+.contenedor-login-seccion,
+.contenedor-registro {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding-top: 130px !important; /* Espacio para no quedar bajo la barra fija */
+  padding-bottom: 40px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  box-sizing: border-box !important;
+}
+
+/* 4. TARJETA BLANCA FLOTANTE */
+.tarjeta-login,
+.contenedor-registro {
+  background-color: #ffffff !important;
+  padding: 35px 30px !important;
+  border-radius: 24px !important;
+  box-shadow: 0 10px 25px rgba(9, 75, 57, 0.1) !important;
+  width: 100% !important;
+  max-width: 420px !important;
+  box-sizing: border-box !important;
+}
+
+/* 5. TÍTULOS */
+#textoForm {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 2.2rem !important;
+  font-weight: 700 !important;
+  color: var(--color-verde-paw) !important;
+  text-align: center !important;
+  margin-top: 0 !important;
+  margin-bottom: 25px !important;
+}
+
+/* 6. ETIQUETAS */
+.textoForm {
+  display: block !important;
+  font-weight: 600 !important;
+  color: var(--color-verde-paw) !important;
+  font-size: 0.95rem !important;
+  margin-bottom: 6px !important;
+}
+
+/* 7. INPUTS DE TEXTO Y CONTRASEÑA */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100% !important;
+  padding: 12px 16px !important;
+  border: 2px solid var(--color-borde) !important;
+  border-radius: 14px !important;
+  font-size: 0.95rem !important;
+  background-color: var(--color-input-bg) !important;
+  box-sizing: border-box !important;
+  outline: none !important;
+  transition: all 0.25s ease !important;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+  border-color: var(--color-acento) !important;
+  background-color: #ffffff !important;
+  box-shadow: 0 0 0 3px rgba(235, 176, 32, 0.18) !important;
+}
+
+/* 8. BOTÓN INICIAR SESIÓN (CORAL / REDONDEADO) */
+.btn-login-submit,
+.btn-registro,
+.btn-principal,
+input[type="submit"] {
+  width: 100% !important;
+  padding: 14px !important;
+  background-color: var(--color-coral) !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 30px !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  margin-bottom: 12px !important;
+  transition: background-color 0.3s ease, transform 0.1s ease !important;
+}
+
+.btn-login-submit:hover,
+.btn-registro:hover,
+.btn-principal:hover,
+input[type="submit"]:hover {
+  background-color: var(--color-coral-hover) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* 9. BOTÓN REGISTRARSE (BORDE VERDE / REDONDEADO) */
+.btn-login-registro,
+.btn-secundario,
+input[type="button"] {
+  width: 100% !important;
+  padding: 12px !important;
+  background-color: transparent !important;
+  color: var(--color-verde-paw) !important;
+  border: 2px solid var(--color-verde-paw) !important;
+  border-radius: 30px !important;
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn-login-registro:hover,
+.btn-secundario:hover,
+input[type="button"]:hover {
+  background-color: var(--color-verde-paw) !important;
+  color: #ffffff !important;
+}

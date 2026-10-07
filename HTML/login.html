@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión | PawFinder</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/estilo.css">
+
+    <link rel="stylesheet" href="../CSS/estiloFormularios.css">
+</head>
+<body>
+    
+    <header class="cabecera-fija">
+        <nav class="navbar navbar-expand-lg container-fluid p-0">
+            <a class="navbar-brand logo-texto" href="index.html"><span class="patita">🐾</span> PawFinder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <div class="menu-navegacion ms-lg-auto">
+                    <a href="index.html">Inicio</a>
+                    <a href="adoptar.html">Adoptar</a>
+                    <a href="login.html" class="activo boton-ingreso">Iniciar sesión</a>
+                    <a href="registroRefugioYVeterinaria.html" class="boton-donar">Soy Refugio/Veterinaria</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Envoltorio que da espacio para no taparse con la barra -->
+    <div class="contenedor-login-seccion">
+        <!-- Tarjeta blanca del formulario -->
+        <div class="tarjeta-login">
+            <h1 id="textoForm">Inicio de Sesión</h1>
+            <form id="formLogin" action="login.php" method="POST">
+                <label for="username" class="textoForm">Usuario:</label>
+                <input type="text" id="username" name="username" required placeholder="Ingresa Tu Usuario" autofocus><br><br>
+                
+                <label for="password" class="textoForm">Contraseña:</label>
+                <input type="password" id="password" name="password" required placeholder="Ingresa Tu Contraseña"><br><br>
+                
+                <input type="submit" value="Iniciar Sesión" class="btn-login-submit">
+                <input type="button" value="Registrarse" class="btn-login-registro" onclick="window.location.href='registro.html'">
+            </form>
+        </div>
+    </div>
+
+<script>
+        document.getElementById('formLogin').addEventListener('submit', function(evento) {
+            let usuario = document.getElementById('username').value;
+            let contra = document.getElementById('password').value;
+
+            if (usuario === 'admin' && contra === 'admin') {
+                evento.preventDefault(); 
+                window.location.href = 'admin.html'; 
+            }
+        });
+    </script>
+</body>
+</html>
+
+ <footer class="pie-pagina mt-auto">
+        <div class="container">
+            <div class="row pt-3 text-center">
+                <div class="col-12">
+                    <p class="mb-0 text-muted"> 2026 PawFinder | TeamBestia</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+
+    
+</body>
+</html>
