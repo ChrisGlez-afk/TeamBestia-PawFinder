@@ -38,6 +38,7 @@ Para visualizar el prototipo Front-End de manera local:
 *   Contraseña: password123
 
 ## Mapa de Navegación
+<img width="4914" height="2620" alt="image" src="https://github.com/user-attachments/assets/750d1c33-8696-4aa7-a890-8a60fd35e8dd" />
 
 
 
@@ -53,7 +54,8 @@ Para visualizar el prototipo Front-End de manera local:
   <li>
     <strong> RF-01 / RF-02: Gestión de Acceso</strong>
     <ul>
-      <li><code>registro.html</code> | Formulario para Adoptantes/Refugios con validaciones en <em>js/validaciones.js</em>.</li>
+      <li><code>registro.html</code> | Formulario para Ado
+        ptantes/Refugios con validaciones en <em>js/validaciones.js</em>.</li>
       <li><code>login.html</code> | Autenticación de usuarios con redirección condicional al área privada.</li>
     </ul>
   </li>
